@@ -16,3 +16,4 @@ export const getJwtSecret = (): string => {
 export const getClientOrigin = (): string =>
   process.env.CLIENT_ORIGIN ?? 'http://localhost:5173';
 // #endregion client-origin
+
